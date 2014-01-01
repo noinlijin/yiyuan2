@@ -1,0 +1,36 @@
+name: Zonda Test
+
+version: dev
+
+# Project Pattern
+# - - -
+pattern: dev
+
+# SeaJS version
+sea_version: 2.1.1
+
+domain_dev: /
+
+domain_prod: /
+
+web_root: /assets
+
+# Define a bootstrap for App
+app_bootstrap: app
+
+less_compiler:
+  bootstrap: app
+  destination: app
+
+# Relative the web_root
+image_path: ui/images
+
+# Relative the web_root
+FontAwesomePath: vendor/Zonda/ui/less/Font-Awesome/font
+
+# Relative the web_root
+BootstrapPath: vendor/Zonda/ui/less/bootstrap/bootstrap
+
+# You can make more html fragment for deloy your app
+deploy_map:
+  index.html: ../

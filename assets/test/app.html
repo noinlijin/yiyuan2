@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>QUnit Test Suite for Zonda</title>
+  <link rel="stylesheet" href="/assets/test/qunit/qunit.css" />
+  <link rel="stylesheet" href="/assets/dist/app-dev.css" />
+</head>
+<body>
+  <div>
+    <h1 id="qunit-header">App base on Zonda Test Suite</h1>
+    <h2 id="qunit-banner"></h2>
+    <h2 id="qunit-userAgent"></h2>
+    <div id="qunit-testrunner-toolbar"></div>
+    <ol id="qunit-tests"></ol>
+  </div>
+  <script src="/assets/test/qunit/qunit.js"></script>
+  <script src="/assets/dist/framework-dev.js"></script>
+  <script type="text/javascript">
+  case_path = "/assets/test/case/zonda/"
+  seajs.use(case_path+"dialog");
+  </script>
+</body>
+</html>

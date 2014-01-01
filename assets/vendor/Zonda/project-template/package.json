@@ -1,0 +1,26 @@
+{
+  "name": "zonda",
+  "version": "0.2.0",
+  "engines": {
+    "node": ">= 0.10.13"
+  },
+  "scripts": {
+    "preinstall": "npm install -g grunt-cli",
+    "postinstall": "./tool/setup.sh",
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "colors": "~0.6.0",
+    "js-yaml": "~2.1.0"
+  },
+  "devDependencies": {
+    "mustache": "~0.7.2",
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "git://github.com/gruntjs/grunt-contrib-connect.git",
+    "grunt-contrib-qunit": "git://github.com/gruntjs/grunt-contrib-qunit.git",
+    "grunt-cmd-transport": "git://github.com/spmjs/grunt-cmd-transport.git",
+    "grunt-cmd-concat": "git://github.com/spmjs/grunt-cmd-concat.git",
+    "grunt-contrib-uglify": "git://github.com/gruntjs/grunt-contrib-uglify.git",
+    "grunt-contrib-clean": "git://github.com/gruntjs/grunt-contrib-clean.git"
+  }
+}

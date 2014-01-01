@@ -1,0 +1,17 @@
+*.buildpath
+*.project
+*.settings/
+*.bak
+*.swp
+*.backup
+Tmp/
+Docs/
+*~
+RemoteSystemsTempFiles/
+./.meta*
+/OtherServer/
+nohup*
+.DS_Store
+node_modules
+project-template/dist/
+Gruntfile.js

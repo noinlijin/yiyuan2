@@ -1,0 +1,78 @@
+{
+"data": [
+    {
+      "id": 1,
+      "question": "1、您觉得自己的胖瘦情况",
+      "values": [
+        {
+          "pId": 1,
+          "value": "A",
+          "value_contain": "A、正常"
+        },
+        {
+          "pId": 1,
+          "value": "B",
+          "value_contain": "B、偏瘦"
+        },
+        {
+          "pId": 1,
+          "value": "C",
+          "value_contain": "C、偏胖"
+        },
+        {
+          "pId": 1,
+          "value": "D",
+          "value_contain": "D、肥胖"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "2、您觉得自己长的帅不帅？",
+      "values": [
+        {
+          "pId": 2,
+          "value": "A",
+          "value_contain": "A、帅"
+        },
+        {
+          "pId": 2,
+          "value": "B",
+          "value_contain": "B、不帅"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "3、您觉得自己几岁结婚？",
+      "values": [
+        {
+          "pId": 3,
+          "value": "A",
+          "value_contain": "A、30岁"
+        },
+        {
+          "pId": 3,
+          "value": "B",
+          "value_contain": "B、45岁"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "4、您觉得自己成绩好不好？",
+      "values": [
+        {
+          "pId": 4,
+          "value": "A",
+          "value_contain": "A、好"
+        },
+        {
+          "pId": 4,
+          "value": "B",
+          "value_contain": "B、不好"
+        }
+      ]
+    }
+  ]
+}
